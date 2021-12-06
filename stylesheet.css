@@ -1,0 +1,729 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Scope One';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-section {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    font-family: 'Scope One';
+    width: 100%;
+}
+
+#navbar-section h1 {
+    margin-bottom: 0px;
+}
+
+#navbar-section ul {
+    display: flex;
+    background: burlywood;
+    width: 100%;
+    padding: 15px 0px;
+    margin: 0;
+    justify-content: center;
+}
+
+#navbar-section ul li {
+    padding: 0px 10px;
+    list-style: none;
+}
+
+#navbar-section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#navbar-section h1 a{
+    flex: 1;
+    align-content: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h2 a{
+    font-family: 'Scope One';
+    margin-top: 10px;
+    background:rgb(255, 228, 169);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+/* middle three images */
+#images {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 30px 0px;
+}
+
+#images img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+/* middle three images */
+.asian, .western, .desserts {
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.asian a, .western a, .desserts a {
+    text-decoration: none;
+    color: white;
+}
+/* middle three images */
+
+/* middle three words inside image */
+.asian, .western, .desserts {
+    padding: 0 15px;
+}
+
+.asian p, .western p, .desserts p {
+    font-family: 'Snippet';
+    align-content: center;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    text-align: center;
+}
+
+#back {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#back a {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Scope One';
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border:black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 15px;
+}
+
+footer {
+    font-family: 'Scope One';
+    background-color: rgb(218,180,106);
+    height: 100%;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+footer .validator {
+    text-decoration: none;
+    color: rgb(94, 65, 28);
+    font-size: 16px;
+}
+
+.icons ul li {
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+.icons h3 {
+    margin: 5px 0px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+/* yellow and white repeating background */
+.food {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: rgb(255, 228, 169);
+}
+
+.food div {
+    font-family: 'Snippet';
+    margin-left: 30px;
+    max-width: 100%;
+}
+
+.food img {
+    width: 150px;
+    height:150px;
+    object-fit:cover;
+    margin: auto;
+}
+
+.food h3 {
+    margin-bottom: 10px;
+}
+
+.food p {
+    margin-bottom: 10px;
+}
+
+.food a {
+    color: black;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#my_pic {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Scope One';
+}
+
+#my_pic p {
+    margin: 20px;
+}
+
+#my_pic img{
+    width: 200px;
+    height: 230px;
+    border-radius: 25%;
+    object-fit: cover;
+    object-position: center top;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-family: 'Scope One';
+    align-content: center;
+}
+
+.icons ul {
+    justify-content: center;
+}
+
+/* -------------------------------specific food pages------------------------------------ */
+#specific-food {
+    text-align: center;
+    font-family: 'Snippet';
+}
+
+#specific-food img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center top;
+    margin: auto;
+    justify-content: center;
+}
+
+#specific-food ul {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#specific-food ul li {
+    text-align:left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#specific-food ul li i{
+    margin-right: 3px;
+}
+
+#recommendations {
+    margin: 20px;
+    border: rgb(228, 192, 146);
+    border-style: dashed;
+}
+
+#recommendations h3 {
+    margin: 10px 0px;
+}
+
+#recommendations h4 {
+    margin-bottom: 10px;
+    color: rgb(255, 135, 98);
+}
+
+#recommendations ol {
+    margin: 20px 30px;
+}
+
+#recommendations ol li {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+/* -------------------------------specific food pages------------------------------------ */
+
+@media only screen and (min-width: 600px) {  
+    h1 {
+        margin: 0% 20%;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h2 {
+        margin-top: 28px;
+        margin-bottom: 5px;
+    }
+    
+    h2 a{
+        font-family: 'Scope One';
+        margin-top: 10px;
+        margin-left: 70px;
+        background:burlywood;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    h3 {
+        margin-top: 40px;
+    }
+    
+    #back {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    #back a {
+        margin-left: 60px;
+        margin-top: 10px;
+        font-family: 'Scope One';
+        background-color: rgb(255, 255, 255);
+        font-size: 16px;
+        color: black;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        border:black;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px 15px;
+    }
+    
+    #back a:hover {
+        background:black;
+        color: white;
+    }
+    
+    #navbar-section {
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        font-family: 'Scope One';
+        border-bottom: 1px solid #111;
+        justify-content: left;
+
+    }
+
+    .navbar-container {
+        height: 8vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar-container h1 {
+        justify-content: left;
+        width: 50%;
+        margin: 0;
+    }
+
+    .navbar-container h3 {
+        flex: 0;
+    }
+
+    .navbar-container ul {
+        padding: 0;
+    }
+    
+    #navbar-section h1 {
+        text-align: left;
+    }
+
+    #navbar-section ul {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        flex: 0;
+        padding: 0;
+    }
+    
+    #navbar-section ul li {
+        list-style: none;
+    }
+    
+    #navbar-section ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    #navbar-section h1 {
+        font-size: 28px;
+    }
+    
+    #images {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 90px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    #images p a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+
+    #images img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        padding: 0;
+    }
+    
+    #asian_page {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #about {
+        max-width: 1100px;
+        margin: 0 auto;
+        height: 60vh;
+    }
+    
+    #my_pic {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #my_pic img{
+        width: 380px;
+        margin-left: 60px;
+        height: 200px;
+        border-radius: 25%;
+        object-fit: cover;
+        object-position: center top;
+    }
+
+    #about h2 {
+        font-family: 'Scope One';
+        margin: 28px;
+        margin-left: 60px;
+        text-align: left;
+    }
+    #about p {
+        font-family: 'Scope One';
+        margin: 0px 30px;
+        margin-bottom: 150px;
+        margin-top: 30px;
+    }
+    
+    .about-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /* three main boxes styling */
+    .asian, .western, .desserts {
+        position: relative;
+        padding: 0;
+    }
+    
+    .asian p, .western p, .desserts p {
+        font-family: 'Snippet';
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-decoration: none;
+    }
+    
+    /* yellow and white repeating background */
+    .yellow {
+        background-color: rgb(255, 228, 169);
+    }
+
+    .food {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 20px;
+        padding-left: 70px;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    .food div {
+        font-family: 'Snippet';
+        margin-left: 30px;
+        max-width: 500px;
+    }
+    
+    .food div p {
+        margin-bottom: 30px;
+    }
+
+    .food img {
+        margin: 0;
+        width: 200px;
+        height:200px;
+        object-fit:cover;
+    }
+
+    .food h3 {
+        margin-top: 10px;
+    }
+    
+    footer {
+        font-family: 'Scope One';
+        background-color: rgb(218,180,106);
+        height: 20vh;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+    
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    footer ul li {
+        list-style: none;
+        text-align: left;
+        margin-right: 10px;
+    }
+    
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    
+    footer h3 {
+        margin: 0;
+        font-weight: 800;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .adventure {
+        margin-right: 100px;
+    }
+
+    .icons ul{
+        text-align: left;
+    }
+
+    .icons h3 {
+        margin-bottom: 20px;
+    }
+
+    .icons ul li {
+        font-size: 20px;
+    }
+    
+    footer .validator {
+        text-decoration: none;
+        color: rgb(94, 65, 28);
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    /* -------------------------------specific food pages------------------------------------ */
+    #specific-food {
+        text-align: center;
+        font-family: 'Snippet';
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    #content {
+        display: flex;
+        flex-direction:column;
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    #content b {
+        margin-left: 30px;
+    }
+
+    #specific-food img {
+        width: 300px;
+        height: 400px;
+        object-fit:scale-down;
+        object-position: center top;
+        margin: 0;
+        justify-content: center;
+        flex: 1;
+    }
+
+    #specific-food div {
+        justify-content: center;
+    }
+
+    #specific-food h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #specific-food ul {
+        margin: 20px;
+        margin-left: 30px;
+    }
+
+    #specific-food ul li {
+        /* text-align: left;
+        justify-content: left;
+        margin-top: 10px; */
+        font-size: 15px;
+    }
+
+    #specific-food ul li i{
+        margin-right: 3px;
+    }
+
+    #specific-food ul li b{
+        margin: 0;
+    }
+
+    #recommendations {
+        margin: 20px;
+        border: rgb(228, 192, 146);
+        border-style: dashed;
+    }
+
+    #recommendations h3 {
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    #recommendations h4 {
+        margin-bottom: 10px;
+        color: rgb(255, 135, 98);
+    }
+
+    #recommendations ol {
+        margin: 20px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    #recommendations ol li {
+        font-size: 14px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
+}
